@@ -6,9 +6,9 @@ import pyrebase
 #Firebase Configuration
 config = {
   "apiKey": "apiKey",
-  "authDomain": "testproject-f514d.firebaseapp.com",
-  "databaseURL": "https://testproject-f514d.firebaseio.com",
-  "storageBucket": "testproject-f514d.appspot.com"
+  "authDomain": "[YOUR PROJECT ID].firebaseapp.com",
+  "databaseURL": "[YOUR PROJECT ID].firebaseio.com",
+  "storageBucket": "[YOUR PROJECT ID].appspot.com"
 }
 
 firebase = pyrebase.initialize_app(config)
